@@ -150,8 +150,9 @@ static void *DVViewControllerPlayerItemStatusObservationContext = &DVViewControl
 {
     [super viewWillAppear:animated];
 
-    NSURL *contentURL = [NSURL URLWithString:@"https://devimages.apple.com.edgekey.net/resources/http-streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8"];
+    // NSURL *contentURL = [NSURL URLWithString:@"https://devimages.apple.com.edgekey.net/resources/http-streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8"];
     // NSURL *contentURL = [NSURL URLWithString:@"http://denivip.ru/sites/default/files/ios-iab/content.mp4"];
+    NSURL *contentURL = [NSURL URLWithString:@"http://52.196.176.26/prog_index.m3u8"];
     [self startPlaybackWithContentURL:contentURL];
 }
 

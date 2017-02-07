@@ -1,3 +1,5 @@
-platform :ios, '5.0'
-xcodeproj 'DVVASTSample/DVVASTSample.xcodeproj'
-pod 'DVVAST', :local => 'DVVAST'
+platform :ios, '6.0'
+project 'DVVASTSample/DVVASTSample.xcodeproj'
+target "DVVASTSample" do
+    pod 'DVVAST', :path => 'DVVAST'
+end

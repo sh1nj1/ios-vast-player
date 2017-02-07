@@ -11,6 +11,13 @@ as possible:
   Video Ad Plugin
 * Play breaks are set up using model classes that try to follow VMAP standard
 
+Build
+-----
+
+* Git clone
+* Pod install
+* Open workspace file
+
 
 TODO
 ----
